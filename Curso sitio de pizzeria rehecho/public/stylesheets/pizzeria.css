@@ -1,0 +1,146 @@
+/*font-family: 'Dynalight', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Kalam', cursive;*/
+footer {
+    background-color: rgba(29, 28, 28, 0.534);
+}
+
+h1 {
+    color: rgb(33, 165, 0);
+    font-family: 'Frijole', cursive;
+}
+
+h2 {
+    color: rgb(33, 165, 0);
+    font-family: 'Kalam', cursive;
+
+}
+
+h5 {
+    color: rgb(158, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+
+.subtitulo {
+    font-family: 'Dynalight', cursive;
+    color: rgb(255, 245, 159);
+    font-size: 40px;
+}
+
+nav {
+    background-color: rgb(158, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+nav h5 {color: rgb(33, 165, 0);}
+
+h6 {
+    font-family: 'Kalam', cursive;
+}
+
+#primeraimagen {
+    position: relative;
+    top: -135px;
+    left: -370px;
+}
+
+#segundaimagen {
+    position: relative;
+    top: -135px;
+    left: 370px;
+}
+
+#terceraimagen {
+    position: relative;
+    top: -135px;
+}
+
+body {
+    background-color: rgb(255, 245, 159);
+}
+
+#titulomenu {
+    text-align: center;
+}
+
+
+.accordion-body li {
+    list-style: none;
+}
+
+.renglonoscurodelista {
+    background-color: rgb(221, 221, 221);
+}
+
+.menu-lista:hover {
+    color: rgb(33, 165, 0);
+}
+
+#quienessomos {
+    text-align: center;
+}
+
+.card img {
+    size: 40px;
+}
+
+#promociones h2 {
+    text-align: center;
+}
+
+#promociones {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.lista-promociones {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.lista-promociones li a {
+    text-decoration: none;
+    color: rgb(158, 0, 0);
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+
+.lista-promociones li a:hover {
+    color: rgb(33, 165, 0);
+}
+
+.lista-promociones li a img {
+    width: 160px;
+    height: 100px;
+    margin-top: 7px;
+    filter: grayscale();
+    transition: all 0.3s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-promociones li a:hover img {
+    filter: none;
+    margin-right: 2rem;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: rgb(255, 245, 159);
+}
+
+.card-title {
+    color: rgb(158, 0, 0);
+}
+
+.card-text {
+    color: rgb(158, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+
+.scroll_section {
+    scroll-margin-top: 65px;
+}
+
+#botonenviar {margin-top: 20px;}

@@ -1,0 +1,23 @@
+<div class="container" style="margin:100px auto">
+    <div class="row">
+        <div class="col-lg-6">
+            <form accion="admin/login" method="post">
+                <div class="form-group mb-3">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp"
+                    name="usuario">
+                    
+                </div>
+                <div class="form-group mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            {{#if error}}
+            <p>usuario no encontrado</p>
+            {{/if}}
+        </div>
+    </div>
+</div>
